@@ -1,0 +1,54 @@
+<!--
+    Install Libraries using NPM
+    Terminal or PowerSheel cd "Main App Folder"
+    npm install babylonjs --save 
+    npm install babylonjs-loaders --save
+    npm i pepjs
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJS App</title>
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="./css/main.css?id=13">
+    <!-- Bootstrap 5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- BabylonJS Render Canvas -->
+    <canvas id="renderCanvas"></canvas>
+    <!-- JS Libraries -->
+    <script src="./node_modules/babylonjs/babylon.js"></script> 
+    <script src="./node_modules/babylonjs-loaders/babylonjs.loaders.min.js"></script> 
+    <script src="./node_modules/pepjs/dist/pep.js"></script>
+    <!-- JS Main App -->
+    <script src="./js/main.js?id=13"></script>
+    <!-- <script src="https://cdn.babylonjs.com/havok/HavokPhysics_umd.js"></script> -->
+
+    <script src="./libs/browser-detector.js"></script>
+    <script src="./libs/recast.js"></script>
+
+    <!-- Loading DIV -->
+    <div id="loadingDiv">
+        <p id="loadingText" class="font-weight-light">L O A D I N G</p>
+        <span class="loader"></span>
+    </div>
+
+    <!-- Badge Information -->
+    <div id="badge" onclick="toggleNavMesh()">
+        Badge Info
+    </div>
+
+    <!-- Stats DIV -->
+    <div id="stats-div"> 
+        <p id="stats-text">FPS: 60</p>
+    </div>
+
+</body>
+</html>
