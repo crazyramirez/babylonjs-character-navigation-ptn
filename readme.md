@@ -14,7 +14,7 @@ Setup NPM</b>
 - Install NodeJS from https://nodejs.org/en
 - Download or Clone this Repository
 - Open a Terminal (Usign for example VSCode) 
-- RUN: <b>npm install</b> (To Install NPM Libraries)
+- RUN: <b>npm install</b> (To Install BJS Libraries from NPM)
 <br>
 
 <b><span>&#10003;</span>
