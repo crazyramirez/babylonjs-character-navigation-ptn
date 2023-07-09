@@ -1,3 +1,6 @@
+# babylonjs-character-navigation
+<br>
+
 <a href="https://www.viseni.com" target="_blank"><img src="https://www.viseni.com/viseni_logo_2.png" style="width: 200px; margin-bottom: 50px"></a>
 <br>
 <br>
@@ -9,7 +12,7 @@ Current Player is from ReadyPlayerMe
 <br>
 
 <b><span>&#10003;</span>
-Setup NPM</b>
+Setup NPM and Install BJS</b>
 
 - Install NodeJS from https://nodejs.org/en
 - Download or Clone this Repository
