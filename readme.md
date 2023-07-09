@@ -1,11 +1,11 @@
-# babylonjs-character-navigation
+# babylonjs-character-navigation-ptn
 <br>
 
 <a href="https://www.viseni.com" target="_blank"><img src="https://www.viseni.com/viseni_logo_2.png" style="width: 200px; margin-bottom: 50px"></a>
 <br>
 <br>
 
-Babylon JS Demo -- Player Movement using Point to Navigate.
+Babylon JS Demo -- Player Movement using <b>Point to Navigate</b>
 <br>
 Current Player is from ReadyPlayerMe
 <br>
