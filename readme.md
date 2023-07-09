@@ -21,6 +21,7 @@ Setup NPM</b>
 Main Code</b>
 - Everything is in main.js in js folder.
 - Very simple, take a look and I hope you enjoy it
+<br>
 
 <b><span>&#10003;</span>
 Try the Live DEMO</b>
